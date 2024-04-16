@@ -1,4 +1,4 @@
-# Quotes App
+# Quotes API
 
 ## Running App
 
