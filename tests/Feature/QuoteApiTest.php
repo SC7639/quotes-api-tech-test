@@ -7,7 +7,7 @@ use Tests\TestCase;
 
 class QuoteApiTest extends TestCase
 {
-    public function testQuoteEndpointReturns401(): void
+    public function testQuoteEndpointReturns401NoApiKey(): void
     {
         $resp = $this->get('/api/quotes');
 
